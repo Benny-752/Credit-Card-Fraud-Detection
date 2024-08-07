@@ -1,7 +1,7 @@
 # Credit-Card-Fraud-Detection
 Kaggle dataset link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-###Observations :
+### Observations :
 Isolation Forest detected 73 errors versus Local Outlier Factor detecting 97 errors vs. SVM detecting 8516 errors
 Isolation Forest has a 99.74% more accurate than LOF of 99.65% and SVM of 70.09
 When comparing error precision & recall for 3 models , the Isolation Forest performed much better than the LOF as we can see that the detection of fraud cases is around 27 % versus LOF detection rate of just 2 % and SVM of 0%.
